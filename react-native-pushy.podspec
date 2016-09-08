@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform       = :ios, "7.0"
   s.source         = { :git => "https://github.com/zhigang1992/react-native-pushy.git", :tag => s.version }
   s.source_files   = 'ios/**/*.{h,m,c}'
-  s.library     = ['z.tbd', 'bz2.1.0.tbd']
+  s.library        = ['z', 'bz2.1.0']
   s.dependency 'React'
 
 end
